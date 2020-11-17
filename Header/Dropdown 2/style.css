@@ -1,0 +1,97 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background: url(./img/time-03.jpg); */
+    background: #46445f;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+    font-weight: 800;
+}
+
+.menu {
+    background: rgb(15, 96, 163);
+    text-align: center;
+    height: 80px;
+    /* margin-top: -1rem; */
+}
+
+.menu ul {
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-around;
+    color: #ffffff;
+}
+
+.menu ul li {
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    /* padding: 1rem; */
+}
+.active,.menu ul li:hover {
+    background-color: rgb(39, 133, 187);
+    border-radius: 3px;
+}
+
+.sub-menu {
+    display: none;
+}
+
+.menu ul li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    background-color: rgb(10, 45, 73);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.menu ul li:hover .sub-menu ul {
+    display: block;
+    margin-top: 10px;
+}
+
+.menu ul li:hover .sub-menu ul li{
+    width: 150px;
+    padding: 7px;
+    border-bottom: 1px dotted rgb(29, 28, 0);
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+
+.menu ul li:hover .sub-menu ul :last-child{
+    border-bottom: none;
+}
+.menu ul li:hover .sub-menu ul li:hover {
+    background: #344e64;
+}
+
+.sub-menu2 {
+    display: none;
+}
+
+.hover-menu:hover .sub-menu2 {
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: rgb(43, 94, 109);
+}
+
+.hover-menu:hover .sub-menu2 ul li:hover{
+    background: rgb(190, 186, 186);
+}
