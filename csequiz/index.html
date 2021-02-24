@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">     
+
+</head>
+<body>
+
+    <!-- top section -->
+    <div class="intro py-3 bg-light text-center">
+        <div class="container">
+            <h2 class="text-primary display-3 my-4">CSEQUIZ</h2>
+        </div>
+    </div>
+
+    <!-- Result section-->
+    <div class="result py-4 d-none bg-light text-center">
+        <div class="container lead">
+            <p>You are<span class="text-primary display-4 p-3">0%</span>CSEIAN</p>
+        </div>
+    </div>
+        <section id="quizform"> 
+
+            <div class="quiz py-4 bg-dark">
+             <div class="container">
+                 <h2 class="my-5 text-primary">On with the questions....</h2>
+     
+                 <form class="quiz-form text-light">
+                     
+                     <div class="my-5">
+                     
+                         <p class="lead font-weight-normal">1. Who is the father of C Language?</p>
+                         <div class="form-check my-2 text-white-50">
+                             <input type="radio" name="q1" value="A">
+                             <label class="form-check-label">Bjarne Stroustrup</label>
+                         </div>
+                         <div class="form-check my-2 text-white-50"> 
+                             <input type="radio" name="q1" value="B">
+                             <label class="form-check-label">Dennis Ritchie</label>
+                         </div>
+                     </div>
+                     <div class="my-5">
+                         <p class="lead font-weight-normal">2. C programs are converted into machine language with help of _______</p>
+                         <div class="form-check my-2 text-white-50">
+                             <input type="radio" name="q2" value="A">
+                             <label class="form-check-label">An Operating System</label>
+                         </div>
+                         <div class="form-check my-2 text-white-50"> 
+                             <input type="radio" name="q2" value="B" >
+                             <label class="form-check-label">A Compiler</label>
+                         </div>
+                     </div>
+                     <div class="my-5">
+                         <p class="lead font-weight-normal">3. C was primarily developed as </p>
+                         <div class="form-check my-2 text-white-50">
+                             <input type="radio" name="q3" value="A">
+                             <label class="form-check-label">System Programing Language</label>
+                         </div>
+                         <div class="form-check my-2 text-white-50"> 
+                             <input type="radio" name="q3" value="B">
+                             <label class="form-check-label">General Purpose Language</label>
+                         </div>
+                     </div>
+                     <div class="my-5">
+                         <p class="lead font-weight-normal">4. C recognizes_____number of keywords?</p>
+                         <div class="form-check my-2 text-white-50">
+                             <input type="radio" name="q4" value="A">
+                             <label class="form-check-label">32</label>
+                         </div>
+                         <div class="form-check my-2 text-white-50"> 
+                             <input type="radio" name="q4" value="B">
+                             <label class="form-check-label">30</label>
+                         </div>
+                     </div>
+                     <button class="btn btn-large btn-danger">Submit</button> 
+                 </form> 
+             </div>
+            </div>
+        </section>    
+
+        <footer>
+            <div class="container-flex">
+                <div class="bg-primary text-center">
+                    <p class="p-4 text-light">Developed By <a href="http://facebook.com/iamashruu" class="text-light">Ashraf</a> </p>
+                </div>
+            </div>
+        </footer>
+    <script src="js/quiz.js"></script>
+</body>
+</html>
